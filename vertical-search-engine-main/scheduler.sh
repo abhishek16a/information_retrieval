@@ -1,5 +1,5 @@
 /bin/sh
-0 2 * * 1 cd /Users/ganeshpandey/Desktop/upwork/digitalPower/search-engine-django/crawler && /usr/bin/scrapy crawl ycu_spider >> /var/log/cu_spider.log 2>&1
+0 2 * * 1 cd ~/vertical-search-enginee/crawler && /usr/bin/scrapy crawl ycu_spider >> /var/log/cu_spider.log 2>&1
 
 
 #The cron schedule 0 2 * * 1 means:
