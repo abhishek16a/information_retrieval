@@ -129,7 +129,7 @@ This project is a **Publication Search System** that scrapes research publicatio
 ### **Request:**
 
 ```bash
-curl -X GET "http://localhost:8000/search?query=machine+learning"
+curl -X GET "http://localhost:9200/search?query=machine+learning"
 ```
 
 ## **Future Improvements**
