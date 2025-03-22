@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 
 from sklearn.metrics import f1_score, confusion_matrix
 
-file_path = "data/sorted.json"
+file_path = "data/news/news.json"
 
 with open(file_path, "r", encoding="utf-8") as file:
     data = [json.loads(line) for line in file]
