@@ -49,7 +49,7 @@ This project is a **Publication Search System** that scrapes research publicatio
 
 - **Scrapy** → Web scraping for publication data
 - **Elasticsearch** → Storage & full-text search engine
-- **FastAPI/Django** → Backend API for querying Elasticsearch
+- **Elastic Search API** → Backend API for querying Elasticsearch
 - **React** → Frontend for user search interface
 - **Selenium Middleware** → Handles JavaScript-rendered pages in Scrapy
 
@@ -59,8 +59,8 @@ This project is a **Publication Search System** that scrapes research publicatio
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/publication-search.git
-   cd vertical-search-engine
+   git clone https://github.com/abhishek16a/information_retrieval.git
+   cd information_retrieval/vertical-search-engine
    ```
 
 1. Install Elasticsearch:
